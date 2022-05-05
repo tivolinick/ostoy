@@ -50,3 +50,5 @@ app.get('/hpa', function(request, response){
 app.listen(app.get('port'), '0.0.0.0', function() {
   console.log(pod + ': microservice starting on port ' + app.get('port'));
 });
+
+
